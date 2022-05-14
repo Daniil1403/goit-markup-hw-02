@@ -23,6 +23,11 @@ rgba(255, 255, 255, 0.6) адресс в подвале*/
 body {
     color: var(--primery-text-color);
     background-color: var(--primery-bgr-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+    cursor: pointer;
 }
 
 .list {
@@ -34,8 +39,13 @@ body {
     background-color: var(--title-white-color);
 }
 
+/* Logo */
 .logo {
     color: var(--accent-color);
+    font-family: Raleway, cursive;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
 }
 
 .logo-studio {
@@ -45,6 +55,11 @@ body {
 /* Site-nav */
 .site-nav .link {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .site-nav .link:hover, 
@@ -56,6 +71,20 @@ body {
     color: var(--accent-color);
 }
 
+.auth-nav .socials {
+    color: var(--primery-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.auth-nav .socials:hover,
+.auth-nav .socials:focus {
+    color: var(--accent-color);
+}
+
 /* Шапка */
 .hero {
     background-color: #2F303A;
@@ -63,6 +92,12 @@ body {
 
 .hero-title {
     color: var(--title-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /* Button*/
@@ -74,11 +109,18 @@ body {
 /* Section */
 .section-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 /* Features */
 .features .title-features {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
 }
 
 /* Team */
@@ -88,11 +130,24 @@ body {
 
 .team-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 .subtitle {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
 }
+
+.team-list .job {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
 /* Footer */
 .footer {
     background-color: #2F303A;
@@ -104,5 +159,43 @@ body {
 
 .footer .footer-socials {
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
-    
+
+.footer .footer-socials:hover,
+.footer .footer-socials:focus {
+    color: var(--accent-color);
+}
+
+/* Styles.css for portfolio.html */
+/* Навигация */
+.btn .btn-list {
+    background-color: var(--accent-bgr-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;  
+}
+
+.btn .btn-list:hover,
+.btn .btn-list:focus {
+    background-color: var(--accent-color);
+}
+
+.btn .btn-list.current {
+    background-color: var(--accent-color);
+}
+
+/* Услуги */
+.heading {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.services-list .vacancy {
+    font-size: 16px;
+    line-height: 1.88;
+}
