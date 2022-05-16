@@ -26,7 +26,6 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     font-size: 14px;
-    line-height: 1.71;
     cursor: pointer;
 }
 
@@ -40,7 +39,7 @@ body {
 }
 
 /* Logo */
-.logo {
+.logo-header {
     color: var(--accent-color);
     font-family: Raleway, cursive;
     font-size: 26px;
@@ -48,7 +47,7 @@ body {
     text-decoration: none;
 }
 
-.logo-studio {
+.logo-header > .logo-studio {
     color: #000000;
 }
 
@@ -104,6 +103,13 @@ body {
 .button {
     color: var(--title-white-color);
     background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* Section */
@@ -153,13 +159,28 @@ body {
     background-color: #2F303A;
 }
 
+.logo-footer {
+    color: var(--accent-color);
+    font-family: Raleway, cursive;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.logo-footer > .logo-studio {
+    color: var(--title-white-color);
+}
+
 .footer .footer-address {
     color: var(--title-white-color);
+    line-height: 1.71;
 }
 
 .footer .footer-socials {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    line-height: 1.71;
+    font-style: normal;
 }
 
 .footer .footer-socials:hover,
@@ -174,7 +195,8 @@ body {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.63;  
+    line-height: 1.63;
+    letter-spacing: 0.03em;  
 }
 
 .btn .btn-list:hover,
@@ -195,7 +217,7 @@ body {
     letter-spacing: 0.06em;
 }
 
-.services-list .vacancy {
+.services .vacancy {
     font-size: 16px;
     line-height: 1.88;
 }
